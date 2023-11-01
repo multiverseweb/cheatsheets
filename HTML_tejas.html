@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive HTML Cheat Sheet</title>
+    <style>
+        /* Add custom styles here */
+        .custom-style {
+            color: #007569;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Basic Structure -->
+    <h1>Hello, World!</h1>
+    <p>This is a basic HTML document structure.</p>
+
+    <!-- Headings -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Paragraph -->
+    <p>This is a paragraph.</p>
+
+    <!-- Line Break -->
+    <p>This is a line<br>break.</p>
+
+    <!-- Strong and Emphasis -->
+    <p><strong>Bold text</strong> and <em>italicized text</em>.</p>
+
+    <!-- Lists -->
+    <ul>
+        <li>Unordered List Item 1</li>
+        <li>Unordered List Item 2</li>
+    </ul>
+
+    <ol>
+        <li>Ordered List Item 1</li>
+        <li>Ordered List Item 2</li>
+    </ol>
+
+    <!-- Definition List -->
+    <dl>
+        <dt>Definition Term 1</dt>
+        <dd>Definition Description 1</dd>
+        <dt>Definition Term 2</dt>
+        <dd>Definition Description 2</dd>
+    </dl>
+
+    <!-- Anchor/Link -->
+    <a href="https://www.example.com" target="_blank" title="Visit Example">Visit Example</a>
+
+    <!-- Image -->
+    <img src="image.jpg" alt="Description of the image">
+
+    <!-- Form -->
+    <form action="/submit" method="post">
+        <!-- Text Input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label>
+        <br>
+
+        <!-- Radio Buttons -->
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        <br>
+
+        <!-- Select Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+        </select>
+        <br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+        <input type="color" value="Submit">
+        <input type="date" value="Submit">
+    </form>
+
+    <!-- Table -->
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+    </table>
+
+    <!-- Div Container -->
+    <div>
+        <p>This is a div container.</p>
+    </div>
+
+    <!-- Span -->
+    <p>This is <span style="color: blue;">blue</span> text.</p>
+
+    <!-- Semantic Elements -->
+    <header>
+        <h1>Website Header</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>Article Title</h2>
+        <p>Content of the article.</p>
+    </article>
+
+    <section>
+        <h2>Section Title</h2>
+        <p>Content of the section.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+
+    <!-- Other Tags -->
+
+    <!-- Abbreviation -->
+    <p><abbr title="Hypertext Markup Language">HTML</abbr> is fun!</p>
+
+    <!-- Address -->
+    <address>
+        Written by John Doe.<br>
+        Visit us at Example Street.
+    </address>
+
+    <!-- Code -->
+    <p>Inline <code>code</code> example.</p>
+
+    <!-- Time -->
+    <p>Meeting at <time datetime="2023-11-01T09:00">9:00 AM</time>.</p>
+
+    <!-- Subscript and Superscript -->
+    <p>This is <sub>subscript</sub> and <sup>superscript</sup> text.</p>
+
+    <!-- Marked/Highlighted Text -->
+    <p>This is <mark>highlighted</mark> text.</p>
+
+    <!-- Deleted and Inserted Text -->
+    <p><del>Deleted</del> and <ins>inserted</ins> text.</p>
+
+    <!-- Horizontal Rule -->
+    <hr>
+
+    <!-- Comment -->
+    <!-- This is a comment -->
+
+    <!-- Rarely Used Tags -->
+
+    <!-- Figure and Figcaption -->
+    <figure>
+        <img src="figure-image.jpg" alt="Description of the figure">
+        <figcaption>Caption for the figure.</figcaption>
+    </figure>
+
+    <!-- Meter -->
+    <p>Progress: <meter value="0.6">60%</meter></p>
+
+    <!-- Progress -->
+    <p>Downloading: <progress value="70" max="100">70%</progress></p>
+
+    <!-- Time -->
+    <p>The time is <time>01:44</time>.</p>
+
+    <!-- Details and Summary -->
+    <details>
+        <summary>Click to show details</summary>
+        <p>Hidden details revealed!</p>
+    </details>
+
+    <!-- Mark -->
+    <p>Defined <mark class="custom-style">custom</mark> style.</p>
+
+    <!-- Iframe -->
+    <iframe src="https://www.example.com" width="600" height="400" title="Embedded Content"></iframe>
+
+</body>
+</html>
