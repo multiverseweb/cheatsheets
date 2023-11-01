@@ -1,4 +1,8 @@
 # This is Markdown
+Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid HTML.
+Thus, “Markdown” is two things:
+- a plain text formatting syntax
+- a software tool that converts the plain text formatting to HTML
 
 This is how you
 
