@@ -3,7 +3,7 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 Thus, “Markdown” is two things:
 - a plain text formatting syntax
 - a software tool that converts the plain text formatting to HTML
-
+    Extension used for a markdown file is `.md`
 This is how you
 
 change line
