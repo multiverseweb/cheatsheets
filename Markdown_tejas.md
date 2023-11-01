@@ -57,7 +57,7 @@ Example: input,else,print,try,int,continue,str,break,etc. .
 
 <!--for images, we just put a '!' before the link-->
 
-![Image](https://repository-images.githubusercontent.com/466150528/6efed205-e878-460e-a1e9-fc9a7cc29d2d)
+![Image](https://tikz.dev/pgfplots/pgfplots-images/image-1039.png)
 
 <!--Horizontal line-->
 ---
