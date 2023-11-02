@@ -55,7 +55,12 @@ line code.
 ```python
 #Python
 if you write the name of programming language at the top then it colorizes the keywords accordingly.
-Example: if, etc. .
+Example:
+x=bool(input("Enter flag value: "))
+if x==True:
+    print("Hello world!")
+else:
+    print("Terminated.")
 ```
 
 [This is a link.](https://example.com)
