@@ -55,7 +55,7 @@ line code.
 ```python
 #Python
 if you write the name of programming language at the top then it colorizes the keywords accordingly.
-Example: input,else,print,try,int,continue,str,break,etc. .
+Example: input ,else ,print ,try ,int ,continue ,str ,break ,etc. .
 ```
 
 [This is a link.](https://example.com)
